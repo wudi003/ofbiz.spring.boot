@@ -358,9 +358,9 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-demo"/>
         <inline-jdbc
                 jdbc-driver="com.mysql.jdbc.Driver"
-                jdbc-uri="jdbc:mysql://127.0.0.1/ofbiz_20220502?autoReconnect=true&amp;characterEncoding=UTF-8"
+                jdbc-uri="jdbc:mysql://127.0.0.1/ofbiz?autoReconnect=true&amp;characterEncoding=UTF-8"
                 jdbc-username="root"
-                jdbc-password="thunms"
+                jdbc-password="root"
                 isolation-level="ReadCommitted"
                 pool-minsize="2"
                 pool-maxsize="250"
